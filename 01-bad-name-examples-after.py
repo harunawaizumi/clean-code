@@ -13,7 +13,6 @@ class BlogPost:
 	    print('Description: ' + self.description)
 	    print('Published: ' + self.date_published)
 
-
 title = 'Clean Code Is Great!'
 description = 'Actually, writing Clean Code can be pretty fun. You\'ll see!'
 now = datetime.now()
