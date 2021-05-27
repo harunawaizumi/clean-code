@@ -1,3 +1,5 @@
+// Ex1
+// three arguments is unclear which argument is for what.
 class User {
   constructor(name, age, email) {
     this.name = name;
@@ -8,31 +10,8 @@ class User {
 
 const user = new User('Max', 31, 'max@test.com');
 
-class User {
-  constructor(userData) {
-    this.name = userData.name;
-    this.age = userData.age;
-    this.email = userData.email;
-  }
-}
-
-const user = new User({ name: 'Max', email: 'max@test.com', age: 31 });
-
-function compare(a, b, comparator) {
-  if (comparator === 'equal') {
-    return a === b;
-  } else if (comparator === 'not equal') {
-    return a !== b;
-  } else if (comparator === 'greater') {
-    return a > b;
-  } else if (comparator === 'smaller') {
-    return a < b;
-  }
-}
-
-const isSmaller = compare(3, 5, 'smaller');
-const isEqual = compare(3, 5, 'equal');
-
+// ex2
+// 
 function compare(comparisonData) {
   const { first, second, comparator } = comparisonData;
   if (comparator === 'equal') {

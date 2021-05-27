@@ -1,13 +1,4 @@
-function log(message, isError) {
-  if (isError) {
-    console.error(message);
-  } else {
-    console.log(message);
-  }
-}
-
-log('Hi there!', false);
-
+// split two functions
 function log(message) {
   console.log(message);
 }
